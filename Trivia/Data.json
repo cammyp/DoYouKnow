@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "question": "Which animal's diet is based mostly on fish, insects, worms, frogs and newts?",
+        "answer": "Catfish"
+    },
+    {
+        "id": 2,
+        "question": "Which animal generally lives between 10 to 12 years?",
+        "answer": "Dove"
+    },
+    {
+        "id": 3,
+        "question": "Which animal's head is positioned upside-down when they eat?",
+        "answer": "Flamingo"
+    },
+    {
+        "id": 4,
+        "question": "Which animal can run as fast as 35 miles an hour over short distances?",
+        "answer": "Giraffe"
+    },
+    {
+        "id": 5,
+        "question": "Which animal is renowned for its agility?",
+        "answer": "Leopard"
+    },
+    {
+        "id": 6,
+        "question": "Which animal paralyzes worms and insects with poison from their saliva?",
+        "answer": "Mole"
+    },
+    {
+        "id": 7,
+        "question": "Which animal holds the Guinness World Record for animal with the most number of names?",
+        "answer": "Puma"
+    }
+]
