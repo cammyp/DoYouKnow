@@ -1,4 +1,4 @@
-# Do You Know
+# DoYouKnow
 
 ❓Trivia, Quiz application with JSON data and Animations 
 
