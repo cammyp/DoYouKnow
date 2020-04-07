@@ -2,10 +2,10 @@ import SwiftUI
 
 struct CardTemplate: View {
     
-    var question: String
+    @Binding var index: Int
     
     var body: some View {
-        Text(question)
+        Text(QuestionArray[index].question)
             .font(.system(size: 27))
             .frame(width: 375, height: 200)
             .foregroundColor(Color.black)
@@ -18,6 +18,6 @@ struct CardTemplate: View {
 
 struct CardTemplate_Previews: PreviewProvider {
     static var previews: some View {
-        CardTemplate(question: "What is the capital city of Georgia?")
+        CardTemplate(index: .constant(0))
     }
 }

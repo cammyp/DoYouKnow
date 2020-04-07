@@ -2,12 +2,14 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State var index: Int = 0
+    @State var points: Int = 0
+    
     var body: some View {
         VStack {
-            NavBar(current: QuestionArray[0])
-            CardTemplate(question: QuestionArray[0].question)
-            MultipleChoice(choiceArray: ["Dove", "Giraffe", "Mole", "Leopard", "Flamingo", "Catfish", "Puma"])
-            
+            NavBar(index: $index, points: $points)
+            CardTemplate(index: $index)
+            MultipleChoice(index: $index, points: $points)
         }
     }
 }
